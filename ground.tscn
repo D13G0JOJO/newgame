@@ -1,0 +1,69 @@
+[gd_scene load_steps=7 format=3 uid="uid://byyxjpwn8th4p"]
+
+[ext_resource type="Texture2D" uid="uid://bpyckyfa6aau8" path="res://assets/Platformer Tileset Market/PNG/Platformer/Ground_02.png" id="1_n6yqj"]
+[ext_resource type="Texture2D" uid="uid://socbx5ieodgh" path="res://assets/Platformer Tileset Market/PNG/Platformer/Ground_10.png" id="2_ggpvn"]
+[ext_resource type="Texture2D" uid="uid://bmojpuq8atcvi" path="res://assets/Platformer Tileset Market/PNG/Platformer/Ground_11.png" id="3_3m5hs"]
+[ext_resource type="Texture2D" uid="uid://bja35lroun16x" path="res://assets/Platformer Tileset Market/PNG/Platformer/Ground_12.png" id="4_8n6ts"]
+[ext_resource type="Texture2D" uid="uid://d1ltgge7fjp8k" path="res://assets/Platformer Tileset Market/PNG/Platformer/Ground_04.png" id="5_y7dwj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2m3d1"]
+size = Vector2(1646, 59)
+
+[node name="ground" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-64, 35)
+texture = ExtResource("1_n6yqj")
+
+[node name="Ground02" type="Sprite2D" parent="."]
+position = Vector2(62, 35)
+texture = ExtResource("1_n6yqj")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(187, 35)
+texture = ExtResource("1_n6yqj")
+
+[node name="Ground03" type="Sprite2D" parent="."]
+position = Vector2(314, 35)
+texture = ExtResource("1_n6yqj")
+
+[node name="Ground10" type="Sprite2D" parent="."]
+position = Vector2(439, 35)
+texture = ExtResource("2_ggpvn")
+
+[node name="Ground11" type="Sprite2D" parent="."]
+position = Vector2(566, 35)
+texture = ExtResource("3_3m5hs")
+
+[node name="Ground12" type="Sprite2D" parent="."]
+position = Vector2(694, 35)
+texture = ExtResource("3_3m5hs")
+
+[node name="Ground13" type="Sprite2D" parent="."]
+position = Vector2(821, 35)
+scale = Vector2(1.03125, 1)
+texture = ExtResource("4_8n6ts")
+
+[node name="Ground04" type="Sprite2D" parent="."]
+position = Vector2(-318, 35)
+texture = ExtResource("5_y7dwj")
+
+[node name="Ground05" type="Sprite2D" parent="."]
+position = Vector2(-192, 35)
+texture = ExtResource("1_n6yqj")
+
+[node name="Ground06" type="Sprite2D" parent="."]
+position = Vector2(951, 35)
+texture = ExtResource("1_n6yqj")
+
+[node name="Ground07" type="Sprite2D" parent="."]
+position = Vector2(1076, 35)
+texture = ExtResource("1_n6yqj")
+
+[node name="Ground08" type="Sprite2D" parent="."]
+position = Vector2(1203, 35)
+texture = ExtResource("1_n6yqj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(446, 1.5)
+shape = SubResource("RectangleShape2D_2m3d1")
